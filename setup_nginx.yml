@@ -1,0 +1,7 @@
+---
+- name: Install nginx on ec2 instance
+  hosts: ec2-instance
+  become: true
+  roles:
+    - setup_nginx
+
